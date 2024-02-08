@@ -42,17 +42,6 @@
 // console.log(a);
 
 
-// 6- task   //////////////////////////////
-
-// let str= '12345678986000632';
-// function go(n){
-// let str1=str.slice(-n)
-// let son1 = str1.padEnd('*',n)
-// console.log(son1);
-// }
-// go(8);
-
-
 // 5- task  /////////////////////////////
 
 // let str = 'Salom';
@@ -62,6 +51,17 @@
 //     arr.reverse()
 // }
 // console.log(arr);
+
+
+// 6- task   //////////////////////////////
+
+// let str= '12345678986000632';
+// function go(n){
+// let str1=str.slice(-n)
+// let son1 = str1.padEnd('*',n)
+// console.log(son1);
+// }
+// go(8);
 
 
 // 7- task   /////////////////////////////////
@@ -74,6 +74,7 @@
 
 
 // 9- task   ////////////////////////////////
+
 // let n ='SALOM JAVASCRIPT';
 // let javob=n.toLocaleLowerCase();
 // console.log(javob);
@@ -88,12 +89,34 @@
 // console.log(son);
 
 
+// 11- task  ////////////////////////////
+
+// function getMinOfString(str) {
+//     let words = str.split(' ');
+//     let shortestWord = words[0];
+    
+//     for (let i = 1; i < words.length; i++) {
+//       if (words[i].length < shortestWord.length) {
+//         shortestWord = words[i];
+//       }
+//     }
+    
+//     return shortestWord;
+//   }
+  
+//   let inputString = "Bu bir xurmatdorlik ifodasidir";
+//   let minWord = getMinOfString(inputString);
+//   console.log(minWord); // Output: "Bu"
+
+
 // 12- task  ////////////////////////////
+
 // let getInverseNumber=(n) =>+n.toString().split('').reverse().join('');
 // console.log(getInverseNumber(12121));
 
 
 // 17- task   ////////////////////////////
+
 // let s1 = 'Salom';
 // let s2 = 'Php';
 // let javob= [...s1, ...s2];
@@ -115,8 +138,8 @@
 // console.log(javob);
 // console.log(qushish);
 
-// 21- task  //////////////////////////////////
 
+// 21- task  //////////////////////////////////
 
 // let s1 ='salom';
 // let s2 = 'Php'
@@ -128,14 +151,15 @@
 // console.log(qushish);
 
 
-
-
 // 28- task  //////////////////////////////
+
 // let str ='D:/Qudrat_c++/books/My_book.exe';
 // let javob = str.slice(20, -4)
 // console.log(javob);
+
  
 // 29- task   ////////////////////////////////////
+
 // let str ='D:/Qudrat_c++/books/My_book.exe';
 // let javob = str.slice(28)
 // console.log(javob);
